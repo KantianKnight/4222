@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1732977414 "/Users/darren/Desktop/C4222/HW3/HW3.tex" "HW3.pdf" "HW3" 1732977416
-  "/Users/darren/Desktop/C4222/HW3/HW3.tex" 1732977414 4783 2f8ac514e234f11cd5b7fe485b338ae2 ""
+["pdflatex"] 1732977474 "/Users/darren/Desktop/C4222/HW3/HW3.tex" "HW3.pdf" "HW3" 1732977475
+  "/Users/darren/Desktop/C4222/HW3/HW3.tex" 1732977474 4792 5e438da1d77e15ef83a99d71b4b3cf82 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -147,8 +147,8 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1662646563 2826429 8f22069fcec042a68aa384af62059152 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "1a.png" 1732973054 397954 42a697da59c548374527bbc9ed3f9d82 ""
-  "HW3.aux" 1732977415 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
-  "HW3.tex" 1732977414 4783 2f8ac514e234f11cd5b7fe485b338ae2 ""
+  "HW3.aux" 1732977475 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "HW3.tex" 1732977474 4792 5e438da1d77e15ef83a99d71b4b3cf82 ""
   (generated)
   "HW3.aux"
   "HW3.log"
