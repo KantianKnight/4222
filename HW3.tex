@@ -76,7 +76,18 @@ Thus \(\mathbf{U}_z, \mathbf{U}_r, \mathbf{U}_h\) all have \(d^2\) parameters.
 
 
 \item %1d
+Experiments to demonstrate the effectiveness of CGNN
+\begin{enumerate}[label=\textbullet]
+\item I will train and test the CGNN model on real-world datasets such as MovieLens and Amazon product reviews and compare its performance against baseline recommendation models like matrix factorization and collaborative filtering.
+\item I will conduct ablation studies to assess various components of CGNN, so I'll be able to better understand its functionality.
+\item To evaluate the robustness of CGNN, I will test it with inputs that vary in session lengths and item diversity. For example, one sequence may consist of a a few copies of only one or two items, while another sequence may contain entirely different items.
+\end{enumerate}
 
+Methods to prevent overfitting in CGNN
+\begin{enumerate}[label=\textbullet]
+    \item Introduce dropout layers or use regularization techniques.
+    \item Randomly modify the input data, either by adding new items or modifying existing items, to increase robustness.
+\end{enumerate}
 \( \\ \)
 
 
@@ -96,13 +107,17 @@ Summing these up, we get \(2d^2 + 2d + 6d^2 + 3d^2 + 6d^2 = 17d^2 + 2d = 170200\
 \end{enumerate}
 \pagebreak
 \textbf{Problem 2.}
-\begin{enumerate}[label=(\alph*)]
-\item %2a
+$\\\\$
+\( e^{(0)}\in\mathbb{R}^{100}, e^{(1)}\in\mathbb{R}^{80}, e^{(2)}\in\mathbb{R}^{40}, e^{(3)}\in\mathbb{R}^{20} \), so
+\[
+\begin{aligned}
+    &\mathbf{W}_1^{(1)} \in\mathbb{R}^{80\times 100}, &&\mathbf{W}_2^{(1)} \in\mathbb{R}^{80\times 100}, &&\mathbf{W}_3^{(1)} \in\mathbb{R}^{80\times 200}\\
+    &\mathbf{W}_1^{(2)} \in\mathbb{R}^{40\times 80}, &&\mathbf{W}_2^{(2)} \in\mathbb{R}^{40\times 80}, &&\mathbf{W}_3^{(2)} \in\mathbb{R}^{40\times 160}\\
+    &\mathbf{W}_1^{(3)} \in\mathbb{R}^{20\times 40}, &&\mathbf{W}_2^{(3)} \in\mathbb{R}^{20\times 40}, &&\mathbf{W}_3^{(3)} \in\mathbb{R}^{20\times 80}
+\end{aligned}
+\]
 
+Therefore, we have a total of \(80\cdot 400 + 40\cdot 320 + 20\cdot 160 = 48000 \) parameters.
 
-\item %2b
-
-
-\end{enumerate}
 \pagebreak
 \end{document}
