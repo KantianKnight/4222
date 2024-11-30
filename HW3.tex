@@ -103,9 +103,9 @@ Methods to prevent overfitting in CGNN
 
 \(\mathbf{W}_{q1}, \mathbf{W}_{q2}\) have the same shapes as \(\mathbf{W}_{k1}, \mathbf{W}_{k2}\), so they have a total of \(6d^2\) parameters.
 
-We also have to learn the $100$-dimensional embeddings for all $2520$ unique items, for $252000$ parameters
+We have to learn $100$-dimensional embeddings for all $2520$ unique items, for $252000$ parameters
 
-Summing these up, we get \(2d^2 + 2d + 6d^2 + 3d^2 + 6d^2 + 252000 = 17d^2 + 2d + 252000= 422200\) parameters.
+Summing these, we get \(2d^2 + 2d + 6d^2 + 3d^2 + 6d^2 + md = 17d^2 + 2d + md = \textbf{422200}\) parameters.
 
 \end{enumerate}
 \pagebreak
